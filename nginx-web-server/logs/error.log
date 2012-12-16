@@ -1,0 +1,15 @@
+2012/12/14 21:38:36 [error] 57764#0: *1 open() "./nginx-web-server/./web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: web.me, request: "GET /favicon.ico HTTP/1.1", host: "localhost:9991"
+2012/12/14 21:38:36 [error] 57764#0: *1 open() "./nginx-web-server/./web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: web.me, request: "GET /favicon.ico HTTP/1.1", host: "localhost:9991"
+2012/12/14 21:45:19 [emerg] 57801#0: bind() to 0.0.0.0:9991 failed (48: Address already in use)
+2012/12/14 21:45:19 [emerg] 57801#0: bind() to 0.0.0.0:9991 failed (48: Address already in use)
+2012/12/14 21:45:19 [emerg] 57801#0: bind() to 0.0.0.0:9991 failed (48: Address already in use)
+2012/12/14 21:45:19 [emerg] 57801#0: bind() to 0.0.0.0:9991 failed (48: Address already in use)
+2012/12/14 21:45:19 [emerg] 57801#0: bind() to 0.0.0.0:9991 failed (48: Address already in use)
+2012/12/14 21:45:19 [emerg] 57801#0: still could not bind()
+2012/12/14 21:46:12 [error] 57813#0: *1 open() "./nginx-web-server/./web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: web.me, request: "GET /favicon.ico HTTP/1.1", host: "web.me:9991"
+2012/12/14 21:46:12 [error] 57813#0: *1 open() "./nginx-web-server/./web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: web.me, request: "GET /favicon.ico HTTP/1.1", host: "web.me:9991"
+2012/12/15 01:49:44 [notice] 58955#0: signal process started
+2012/12/15 01:52:25 [notice] 58973#0: signal process started
+2012/12/15 01:58:18 [notice] 58994#0: signal process started
+2012/12/15 02:03:26 [notice] 59041#0: signal process started
+2012/12/16 14:37:10 [notice] 62741#0: signal process started

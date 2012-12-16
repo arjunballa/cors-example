@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="./jquery.js"></script>
+</head>
+<body>
+    <h3>CORS example</h3>
+    <div id="json-div">
+    </div>
+</body>
+<script>
+    $(document).ready(function(){
+        jQuery.ajax({
+            url: "http://api.me:9990/persons.json",
+            type: "GET",
+            accept: "application/json",
+            contentType: "application/json",
+            dataType: "json",
+            success: function (data, textStatus, jqXHR) {
+                $("#json-div").append(JSON.stringify(data));
+                console.log("data", data);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                $("#json-div"). append(JSON.stringify(jqXHR));
+                console.log("jqXHR", jqXHR);
+            }
+        });
+
+    });
+</script>
+</html>

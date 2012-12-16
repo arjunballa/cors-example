@@ -1,0 +1,12 @@
+2012/12/14 21:32:09 [error] 57742#0: *1 "./nginx-api-server/./api/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: api.me, request: "GET / HTTP/1.1", host: "localhost:9990"
+2012/12/14 21:32:10 [error] 57742#0: *1 open() "./nginx-api-server/./api/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: api.me, request: "GET /favicon.ico HTTP/1.1", host: "localhost:9990"
+2012/12/14 21:32:10 [error] 57742#0: *1 open() "./nginx-api-server/./api/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: api.me, request: "GET /favicon.ico HTTP/1.1", host: "localhost:9990"
+2012/12/14 21:32:41 [error] 57742#0: *1 open() "./nginx-api-server/./api/persons/persons.json" failed (13: Permission denied), client: 127.0.0.1, server: api.me, request: "GET /persons/persons.json HTTP/1.1", host: "localhost:9990"
+2012/12/14 21:34:15 [error] 57742#0: *2 directory index of "./nginx-api-server/./api/" is forbidden, client: 127.0.0.1, server: api.me, request: "GET / HTTP/1.1", host: "localhost:9990"
+2012/12/14 21:36:01 [error] 57742#0: *3 directory index of "./nginx-api-server/./api/" is forbidden, client: 127.0.0.1, server: api.me, request: "GET / HTTP/1.1", host: "localhost:9990"
+2012/12/14 21:46:12 [error] 57817#0: *1 open() "./nginx-api-server/./api/person.json" failed (2: No such file or directory), client: 127.0.0.1, server: api.me, request: "GET /person.json HTTP/1.1", host: "api.me:9990", referrer: "http://web.me:9991/main.html"
+2012/12/15 01:49:53 [notice] 58960#0: signal process started
+2012/12/15 01:51:55 [notice] 58970#0: signal process started
+2012/12/15 01:58:24 [notice] 58997#0: signal process started
+2012/12/15 02:03:33 [notice] 59045#0: signal process started
+2012/12/16 14:36:59 [notice] 62737#0: signal process started
